@@ -44,7 +44,7 @@ function clickpicture() {
 
 function savepicture() {
     var anchortag = document.getElementById("link");
-    var clickedimage = documement.getElementById("selfiepic").src;
+    var clickedimage = document.getElementById("selfiepic").src;
     anchortag.href = clickedimage;
     anchortag.click();
 
